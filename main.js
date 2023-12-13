@@ -27,7 +27,7 @@ function btnClicked() {
     document.getElementById("output2").innerHTML = "Wrong!";
   }
 
-  if (answer3 === "Messi" || answer3 === "Lionel Messi") {
+  if (answer3 === "messi" || answer3 === "lionel messi") {
     document.getElementById("output3").innerHTML = "correct";
     totalcorrect++;
   } else {
